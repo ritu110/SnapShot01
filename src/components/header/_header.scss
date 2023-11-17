@@ -1,0 +1,20 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    .title{
+        font-size: 5rem;
+    }
+	input{
+		padding: 0.5rem;
+		border: 2px solid powderblue;
+		border-radius: 5px;
+		width: 50%;
+		margin-inline: auto;
+	}
+    .category-btns{
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+    }
+}
